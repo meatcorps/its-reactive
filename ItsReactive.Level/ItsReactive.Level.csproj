@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ItsReactive.Core\ItsReactive.Core.csproj" />
+      <ProjectReference Include="..\ItsReactive.UI\ItsReactive.UI.csproj" />
+      <ProjectReference Include="..\ItsReactive.Utilities\ItsReactive.Utilities.csproj" />
+    </ItemGroup>
+
+</Project>

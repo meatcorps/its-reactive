@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Autofac" Version="6.3.0" />
+        <PackageReference Include="Autofac.Extras.NLog" Version="4.0.0" />
+        <PackageReference Include="BouncyCastle" Version="1.8.9" />
+        <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0-preview.4.22229.4" />
+        <PackageReference Include="Microsoft.Reactive.Testing" Version="5.0.0" />
+        <PackageReference Include="MonoGame.Extended" Version="3.8.0" />
+        <PackageReference Include="MonoGame.Extended.Animations" Version="3.7.0" />
+        <PackageReference Include="MonoGame.Extended.Collisions" Version="3.8.0" />
+        <PackageReference Include="MonoGame.Extended.Content.Pipeline" Version="3.8.0" />
+        <PackageReference Include="MonoGame.Extended.Entities" Version="3.8.0" />
+        <PackageReference Include="MonoGame.Extended.Gui" Version="3.8.0" />
+        <PackageReference Include="MonoGame.Extended.Input" Version="3.8.0" />
+        <PackageReference Include="MonoGame.Extended.Particles" Version="3.8.0" />
+        <PackageReference Include="MonoGame.Extended.SceneGraphs" Version="3.8.0" />
+        <PackageReference Include="MonoGame.Extended.Tweening" Version="3.8.0" />
+        <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+        <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+        <PackageReference Include="NLog" Version="5.0.0" />
+        <PackageReference Include="Ryan.MonoGame.Extended.Input" Version="1.0.4" />
+        <PackageReference Include="System.Reactive" Version="5.0.0" />
+        <PackageReference Include="Utility.Logging.NLog.Autofac" Version="1.4.2.3" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="src\Factories" />
+    </ItemGroup>
+
+</Project>
